@@ -13,6 +13,7 @@ declare interface CreateUserParams {
 declare interface PoemParams {
 	user: string;
 	id: string;
+	title: string;
 	poemText: string;
 	datePublished: Date;
 	dateEdited: Date;
@@ -21,6 +22,16 @@ declare interface PoemParams {
 declare interface StoryParams {
 	user: string;
 	id: string;
+	title: string;
+	StoryText: string;
+	datePublished: Date;
+	dateEdited: Date;
+}
+
+declare interface ShortStoryParams {
+	user: string;
+	id: string;
+	title: string;
 	shortStoryText: string;
 	datePublished: Date;
 	dateEdited: Date;
