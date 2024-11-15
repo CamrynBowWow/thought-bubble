@@ -27,3 +27,11 @@ declare interface StoryParams {
 	datePublished: Date;
 	dateEdited: Date;
 }
+
+declare type MainContent = {
+	title: string;
+	content: {
+		subTitle: string;
+		desc: string;
+	}[];
+};

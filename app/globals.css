@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
   .header-link {
     @apply py-[5px] font-normal text-base px-2 rounded-[5px] duration-700 delay-75 hover:bg-primary/75 hover:scale-95
   }

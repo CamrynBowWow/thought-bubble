@@ -22,6 +22,7 @@ export interface Poem extends Models.Document {
 	user: User;
 	id: string;
 	title: string;
+	categories: string[];
 	poemText: string;
 	datePublished: Date;
 	dateEdited: Date;
@@ -31,6 +32,7 @@ export interface Story extends Models.Document {
 	user: User;
 	id: string;
 	title: string;
+	categories: string[];
 	StoryText: string;
 	wordCount: number;
 	datePublished: Date;
