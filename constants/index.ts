@@ -45,11 +45,15 @@ export const MainPageContent: MainContent[] = [
 		],
 	},
 	{
-		title: 'Why Give Up?',
+		title: 'Motivation',
 		content: [
 			{
-				subTitle: "Don't give up on your Dreams",
-				desc: "Don't give up on your goals. Don't give up on yourself. Put yourself first. Keep to your rules. Keep to your beliefs. Don't lose yourself to someone who won't see you as the only option. Keep to what you need. Keep to your strengths. Never give up what you see in yourself, your dreams, wishes, hopes, and your need for love. You are the only one that is deserving of your respect, deserving of your love. Don't give yourself what you don't deserve.",
+				subTitle: 'Why Give Up?',
+				desc: "Don't give up on your Dreams. Don't give up on your goals. Don't give up on yourself. Put yourself first. Keep to your rules. Keep to your beliefs. Don't lose yourself to someone who won't see you as the only option. Keep to what you need. Keep to your strengths. Never give up what you see in yourself, your dreams, wishes, hopes, and your need for love. You are the only one that is deserving of your respect, deserving of your love. Don't give yourself what you don't deserve.",
+			},
+			{
+				subTitle: 'Be Happy And Brave',
+				desc: "Life should'nt be looked at in a bad way. Smile, laugh, enjoy all the moments that come. Show them how happy and full of laughter you are. Don't dwell on the sadness life brings. Make light of bad situations. Find the laughter in things that have none in them. Be the joy you bring to yourself and others.",
 			},
 		],
 	},

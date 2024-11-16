@@ -12,8 +12,8 @@ import Content from './Content';
 const HomeCarousel = () => {
 	return (
 		<section className='w-full flex justify-center p-1'>
-			<Carousel>
-				<CarouselContent className='w-[750px] h-[700px]'>
+			<Carousel className='px-7'>
+				<CarouselContent className='lg:w-[750px] w-[550px] h-[700px]'>
 					{MainPageContent.map((value, index) => (
 						<CarouselItem key={index}>
 							<Content title={value.title} content={value.content} />

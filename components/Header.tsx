@@ -4,8 +4,8 @@ import React from 'react';
 
 const Header = () => {
 	return (
-		<header className='max-w-7xl w-full h-[180px] flex justify-between items-center px-10 p-3 lg:px-3'>
-			<div className='w-[54px] h-[54px] rounded-full bg-defaultGray flex items-center justify-center'>
+		<header className='max-w-7xl w-full h-[180px] flex justify-center items-center relative px-10 p-3 lg:px-3'>
+			<div className='w-[54px] h-[54px] absolute rounded-full bg-defaultGray flex items-center justify-center right-[70px]'>
 				<UserIcon />
 			</div>
 			<div>
