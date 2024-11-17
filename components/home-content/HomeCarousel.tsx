@@ -11,17 +11,17 @@ import Content from './Content';
 
 const HomeCarousel = () => {
 	return (
-		<section className='w-full flex justify-center p-1'>
-			<Carousel className='px-7'>
-				<CarouselContent className='lg:w-[750px] w-[550px] h-[700px]'>
+		<section className='w-full no-scrollbar overflow-hidden flex justify-center p-1 pb-10'>
+			<Carousel className='px-0 sm:px-7'>
+				<CarouselContent className='w-[300px] lg:w-[750px] md:w-[550px] sm:w-[420px] h-screen'>
 					{MainPageContent.map((value, index) => (
 						<CarouselItem key={index}>
 							<Content title={value.title} content={value.content} />
 						</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious className='bg-secondary border-gray-100' />
-				<CarouselNext className='bg-secondary border-gray-100' />
+				<CarouselPrevious className='bg-secondary border-gray-100 invisible sm:visible' />
+				<CarouselNext className='bg-secondary border-gray-100 invisible sm:visible' />
 			</Carousel>
 		</section>
 	);
