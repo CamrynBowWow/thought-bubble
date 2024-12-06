@@ -35,3 +35,9 @@ declare type MainContent = {
 		desc: string;
 	}[];
 };
+
+declare type MenuItem = {
+	title: string;
+	url: string;
+	icon: ForwardRefExoticComponent<Omit<LucideProps, 'ref'> & RefAttributes<SVGSVGElement>>;
+};

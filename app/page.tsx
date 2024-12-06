@@ -1,10 +1,10 @@
-import Header from '@/components/Header';
+import Header from '@/components/header/Header';
 import HomeCarousel from '@/components/home-content/HomeCarousel';
 import Image from 'next/image';
 
 export default function Home() {
 	return (
-		<div className='flex flex-col h-screen max-h-screen items-center relative'>
+		<main className='flex flex-col w-full h-screen max-h-screen items-center relative'>
 			<Header />
 			<HomeCarousel />
 			<Image
@@ -21,6 +21,6 @@ export default function Home() {
 				width={323}
 				height={548}
 			/>
-		</div>
+		</main>
 	);
 }
