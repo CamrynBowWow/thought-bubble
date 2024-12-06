@@ -20,8 +20,8 @@ const HomeCarousel = () => {
 						</CarouselItem>
 					))}
 				</CarouselContent>
-				<CarouselPrevious className='bg-secondary border-gray-100 invisible sm:visible' />
-				<CarouselNext className='bg-secondary border-gray-100 invisible sm:visible' />
+				<CarouselPrevious className='carousel-buttons' />
+				<CarouselNext className='carousel-buttons' />
 			</Carousel>
 		</section>
 	);

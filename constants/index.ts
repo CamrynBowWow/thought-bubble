@@ -1,3 +1,15 @@
+import {
+	BookOpenIcon,
+	GalleryVerticalEndIcon,
+	Heart,
+	Home,
+	LogIn,
+	LogOut,
+	ScrollIcon,
+	Settings,
+	UserRoundPen,
+} from 'lucide-react';
+
 export const MainPageContent: MainContent[] = [
 	{
 		title: 'Cognitive Distortions',
@@ -55,6 +67,61 @@ export const MainPageContent: MainContent[] = [
 				subTitle: 'Be Happy And Brave',
 				desc: "Life should'nt be looked at in a bad way. Smile, laugh, enjoy all the moments that come. Show them how happy and full of laughter you are. Don't dwell on the sadness life brings. Make light of bad situations. Find the laughter in things that have none in them. Be the joy you bring to yourself and others.",
 			},
+			{
+				subTitle: "Don't Waver",
+				desc: 'Coming Soon',
+			},
 		],
+	},
+];
+
+export const MenuItems: MenuItem[] = [
+	{
+		title: 'Home',
+		url: '/',
+		icon: Home,
+	},
+	{
+		title: 'Poems',
+		url: '/',
+		icon: ScrollIcon,
+	},
+	{
+		title: 'Stories',
+		url: '/',
+		icon: BookOpenIcon,
+	},
+	{
+		title: 'My Creations',
+		url: '/',
+		icon: GalleryVerticalEndIcon,
+	},
+	{
+		title: 'Favorites',
+		url: '/',
+		icon: Heart,
+	},
+];
+
+export const SidebarItems: MenuItem[] = [
+	{
+		title: 'Account',
+		url: '/',
+		icon: UserRoundPen,
+	},
+	{
+		title: 'Settings',
+		url: '/',
+		icon: Settings,
+	},
+	{
+		title: 'Sign In',
+		url: '/',
+		icon: LogIn,
+	},
+	{
+		title: 'Sign Out',
+		url: '/',
+		icon: LogOut,
 	},
 ];

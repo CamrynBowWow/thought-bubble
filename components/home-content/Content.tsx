@@ -14,7 +14,7 @@ const Content = ({ title, content }: ContentProps) => {
 				{content.map((value, index) => (
 					<div className='flex flex-col gap-2' key={index}>
 						<h2 className='font-milongaFont text-base sm:text-lg md:text-xl'>{value.subTitle}</h2>
-						<p className='font-lancelotFont text-base sm:text-lg  md:text-xl subpixel-antialiased'>
+						<p className='font-lancelotFont text-lg md:text-xl subpixel-antialiased'>
 							{value.desc}
 						</p>
 					</div>

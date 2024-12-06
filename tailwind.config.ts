@@ -12,10 +12,30 @@ export default {
 		extend: {
 			colors: {
 				primary: '#F18E3F',
-				secondary: '#FFC500',
+				secondary: {
+					default: '#FFC500',
+					light: '#F6BD00',
+				},
 				third: '#969B61',
-				defaultGray: '#D9DAD7',
-				bgMain: '#F7E5BF',
+				gray: {
+					default: '#D9DAD7',
+					light: '#D0D0CE',
+				},
+				background: {
+					default: '#F7E5BF',
+					light: '#EFDDB8',
+					dark: '#CDBE9E',
+				},
+				sidebar: {
+					DEFAULT: 'hsl(var(--sidebar-background))',
+					foreground: 'hsl(var(--sidebar-foreground))',
+					primary: 'hsl(var(--sidebar-primary))',
+					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+					accent: 'hsl(var(--sidebar-accent))',
+					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+					border: 'hsl(var(--sidebar-border))',
+					ring: 'hsl(var(--sidebar-ring))',
+				},
 			},
 			fontFamily: {
 				lancelotFont: ['var(--font-lancelot)'],
